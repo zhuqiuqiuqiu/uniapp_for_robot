@@ -1,0 +1,20 @@
+
+.container{
+
+		padding: 0.625rem;
+}
+.deviceItem{
+
+		display: flex;
+
+		justify-content: space-between;
+
+		align-items: center;
+
+		margin-top: 0.625rem;
+
+		padding: 0.625rem;
+
+		border: 1px solid #ccc;
+}
+
