@@ -1,0 +1,129 @@
+
+.container {
+  padding: 0.625rem;
+}
+.deviceItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.625rem;
+  padding: 0.625rem;
+  border: 1px solid #ccc;
+}
+/* 菜单列表 */
+.menu-list-BLE {
+  background: #f9f9f9;
+  border-radius: 0.75rem;
+  padding: 0.3125rem 0;
+  box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.04);
+}
+.menu-item-BLE {
+  display: flex;
+  align-items: center;
+  padding: 0.9375rem;
+  position: relative;
+}
+
+/* 分隔线（除最后一个） */
+.menu-item-BLE:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: 3.125rem;
+  right: 0;
+  bottom: 0;
+  height: 0.03125rem;
+  background: #f0f0f0;
+}
+
+/* 点击效果 */
+.menu-item-hover-BLE {
+  background: #f8f9fa;
+}
+.menu-icon-BLE {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
+}
+.iconfont-BLE {
+  font-size: 1.125rem;
+  color: #fff;
+}
+.menu-text-BLE {
+  flex: 1;
+  font-size: 0.9375rem;
+  color: #333;
+  font-weight: 500;
+}
+.menu-arrow-BLE {
+  font-size: 1.125rem;
+  color: #c7c7cc;
+  margin-left: 0.3125rem;
+}
+.icon-img {
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+
+
+/* 弹窗 */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modal-box {
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 0.75rem;
+  width: 18.75rem;
+}
+.modal-title {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.9375rem;
+}
+.wifi-input {
+  width: 100%;
+  height: 2.5rem;
+  padding: 0 0.625rem;
+  margin-bottom: 0.625rem;
+  border: 0.0625rem solid #ddd;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+}
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.9375rem;
+}
+.btn-cancel, .btn-confirm {
+  width: 46%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 0.9375rem;
+  border: none;
+  border-radius: 0.375rem;
+}
+.btn-cancel {
+  background: #f0f0f0;
+  color: #666;
+}
+.btn-confirm {
+  background: #34C759;
+  color: #fff;
+}
