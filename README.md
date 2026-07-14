@@ -7,3 +7,10 @@
 
 这是为文创做的APP,以下是我们项目的宣发图：
 <img src="pic/page.jpg">
+
+# 部分app功能展示（ui设计中）
+<img src="pic/index2.jpg">
+<img src="pic/index3.jpg">
+
+# 也是跟着学长们上临港公众号了。哈哈哈哈
+<img src="pic/index1.jpg">
